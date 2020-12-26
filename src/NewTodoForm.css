@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+
+.NewTodoForm {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.NewTodoForm input {
+ border-right: none;
+ width: 100%;
+ outline: none;
+ border: none;
+ border-bottom: 1px solid #fff;
+ background-color: transparent;
+ margin-left: auto;
+ box-shadow: none;
+ border-radius: 0;
+ font-size: 20px;
+ appearance: none;
+ color: aliceblue;
+ font-family:"Love Ya Like A Sister",cursive;
+}
+.fa.fa-plus{
+  margin-left: 450px;
+  margin-top: 0px;
+ font-size: 40px;
+ border-radius: 45%;
+ cursor: pointer;
+ color: palevioletred;
+}

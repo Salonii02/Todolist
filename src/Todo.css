@@ -1,0 +1,61 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+
+
+.completed{
+  color: grey;
+  text-decoration: line-through;
+}
+.todo{
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      justify-content: space-between;
+}
+.todo li{
+    font-family:"Love Ya Like A Sister",cursive;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    word-break: break-all;
+    margin-left:0px;
+}
+
+.todo .fa.fa-edit{
+   margin-left:auto;
+   font-size: 20px;
+   cursor: pointer;
+   color: palevioletred;
+     border-radius: 40%;
+}
+.todo .fa.fa-trash-o{
+  font-size: 20px;
+  cursor: pointer;
+  color: palevioletred;
+    border-radius: 40%;
+
+}
+.todo input{
+  border-right: none;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  margin-left: auto;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 20px;
+  appearance: none;
+  color: aliceblue;
+  font-family:"Love Ya Like A Sister",
+  cursive;
+}
+.fa.fa-save {
+  margin-left: 400px;
+  margin-top: 0px;
+  font-size: 20px;
+  border-radius: 40%;
+  cursor: pointer;
+  color: palevioletred;
+}

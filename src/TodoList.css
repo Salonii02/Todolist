@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+
+.todolist{
+  margin: 0;
+  margin-top: 100px;
+  margin-left: 700px;
+  width: 500px;
+  background-color: #10101d;
+  border-radius: 10px;
+}
+.todolist ul {
+  list-style: none;
+  color: aliceblue;
+}
+.todolist h1{
+    font-weight: normal;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color:aliceblue;
+    font-family:"Love Ya Like A Sister",cursive;
+}
+.todolist h1 span {
+  display: block;
+  font-size: 20px;
+}
