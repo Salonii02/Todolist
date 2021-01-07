@@ -20,9 +20,8 @@ app.use(cors());
 
 //Getting Routers
 const TodosRouter = require("./routes/todoroute");
-const UsersRouter = require("./routes/userroute");
 app.use("/todos", TodosRouter);
-app.use("/users", UsersRouter);
+
 // Run the server
 app.listen(PORT, () => {
   // listening on port 5000
